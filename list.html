@@ -1,5 +1,5 @@
 <div class="box" ng-repeat="screenshot in screenshots">
-    <a href="{{screenshot.fullUrl}}">
+    <a ng-href="{{screenshot.fullUrl}}">
         <img class="lazy-load" data-src="{{screenshot.thumbUrl}}"/>    
     </a>
 </div>
